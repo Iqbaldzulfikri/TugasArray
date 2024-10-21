@@ -57,7 +57,9 @@ public class DaftarNilaiMahasiswa {
 import java.util.ArrayList;
 
 public class DaftarBelanjaArrayList {
+
     public static void main(String[] args) {
+    
         ArrayList<String> namaBuah = new ArrayList<>();
         ArrayList<Integer> jumlahBuah = new ArrayList<>();
         ArrayList<Integer> hargaBuah = new ArrayList<>();
