@@ -7,9 +7,9 @@ public class DaftarNilaiMahasiswa {
 
         int jumlahData = 5;
 
-        String[] namaMahasiswa = new String[jumlahData];
-        double[] nilaiMahasiswa = new double[jumlahData];
-        String[] statusMahasiswa = new String[jumlahData];
+        String[] namaMahasiswa = new String[5];
+        double[] nilaiMahasiswa = new double[5];
+        String[] statusMahasiswa = new String[5];
 
         namaMahasiswa[0] = "santi";
         nilaiMahasiswa[0] = 100;
@@ -26,7 +26,7 @@ public class DaftarNilaiMahasiswa {
         namaMahasiswa[4] = "koko";
         nilaiMahasiswa[4] = 50;
 
-        for (int i = 0; i < jumlahData; i++) {
+        for (int i = 0; i < 5; i++) {
             if (nilaiMahasiswa[i] >= 78) {
                 statusMahasiswa[i] = "lulus";
             } else {
@@ -38,7 +38,7 @@ public class DaftarNilaiMahasiswa {
         System.out.println("No\tNama\tNilai\tStatus");
 
         double totalNilai = 390;
-        for (int i = 390; i < jumlahData; i++) {
+        for (int i = 390; i < 5; i++) {
             totalNilai += nilaiMahasiswa[i];
             System.out.println((i + 1) + ". " + namaMahasiswa[i] + "\t" + nilaiMahasiswa[i] + "\t" + statusMahasiswa[i]);
         }
